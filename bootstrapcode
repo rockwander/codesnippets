@@ -1,0 +1,19 @@
+ Alerts without close
+ 
+ <div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+
+Alerts with close
+
+<div class="alert alert-success alert-dismissible">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+ 
+ Types of Buttons
+ 
+ <a href="https://www.facebook.com" class="btn btn-info" role="button">Link Button</a>
+  <button type="button" class="btn btn-info">Button</button>
+  <input type="button" class="btn btn-info" value="Input button">
+  <input type="submit" class="btn btn-info" value="Submit Button">
