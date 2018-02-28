@@ -17,3 +17,18 @@ Alerts with close
   <button type="button" class="btn btn-info">Button</button>
   <input type="button" class="btn btn-info" value="Input button">
   <input type="submit" class="btn btn-info" value="Submit Button">
+
+Progress Bar
+ <div class="progress">
+  <div class="progress-bar" style="width:70%">70%</div>
+</div> 
+
+With different colors
+<div class="progress">
+  <div class="progress-bar bg-success" style="width:20%"></div>
+</div>
+
+With Stripes
+ <div class="progress">
+  <div class="progress-bar progress-bar-striped" style="width:40%"></div>
+</div> 
