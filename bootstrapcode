@@ -43,3 +43,21 @@ Cards with image in the bottom
     </div>
     <img class="card-img-bottom" src="img_avatar6.png" alt="Card image" style="width:100%">
   </div>
+
+Scripting 
+ <%= image_tag @destination.image %>
+        <h2><%= @destination.name %></h2>
+        <p><%= @destination.description %></p>
+      	<%= link_to "Edit", 'destinations#edit' %>
+Accepting characters as a form input
+<%= form_for(@destination) do |f| %>  
+  <div class="field"> 
+    <%= f.text_area :name %><br> 
+    <%= f.text_area :description %> 
+  </div> 
+  <div class="actions"> 
+    <%= f.submit "Change" %> 
+  </div> 
+<% end %>
+
+       
